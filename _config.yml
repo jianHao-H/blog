@@ -6,10 +6,10 @@
 title: bugCarrot's blog
 subtitle: ''
 description: '进阶的土拨鼠一枚'
-keywords:
-author: John Doe
-language: en
-timezone: ''
+keywords: 
+author: bugCarrot
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -103,3 +103,9 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+  error_404:
+    enable: true
+    subtitle: "Page Not Found"
+    #background
