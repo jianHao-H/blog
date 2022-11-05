@@ -78,3 +78,15 @@
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
 }
+
+/* 以下代码表示当鼠标在body元素及a、img元素上时所显示的鼠标为url路径里的样式。因此你可以将里边的文件替换为任意鼠标样式。 */
+
+body {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+      default;
+}
+a,
+img {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+      default;
+}

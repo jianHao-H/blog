@@ -5,7 +5,6 @@
 menu:
   首页: / || fas fa-home
   文章: /archives/ || fas fa-archive
-  搜索: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   关于: /about/ || fas fa-heart
 
@@ -47,7 +46,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: true
   CDN:
 
@@ -121,7 +120,26 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://s2.loli.net/2022/11/05/zCsguXwRtAkMZLc.webp
+    - https://s2.loli.net/2022/11/05/FKGNAa2l7s8I5Wg.webp
+    - https://s2.loli.net/2022/11/05/T73aJXQvcW6IRwn.webp
+    - https://s2.loli.net/2022/11/05/orL1sF8UN9PXQBy.webp
+    - https://s2.loli.net/2022/11/05/H8vsqLEm5uWpKoX.webp
+    - https://s2.loli.net/2022/11/05/qVo6jaguQCtrA8z.webp
+    - https://s2.loli.net/2022/11/05/4AbCgxwGiVnl7FN.png
+    - https://s2.loli.net/2022/11/05/fl7iOAHckzmDIa5.png
+    - https://s2.loli.net/2022/11/05/DHhmRvqJatVNjpZ.jpg
+    - https://s2.loli.net/2022/11/05/XzTmQMqapfIYVHU.webp
+    - https://s2.loli.net/2022/11/05/Fd7xzSANGQYVmKc.webp
+    - (https://s2.loli.net/2022/11/05/uJbX8nMWot9QxLZ.webp
+    - https://s2.loli.net/2022/11/05/AQuDd3nl2iqFmVr.webp
+    - https://s2.loli.net/2022/11/05/TJDMmqwr6UhK7fi.webp
+    - https://s2.loli.net/2022/11/05/4nwtSKxBNvJC3gO.webp
+    - https://s2.loli.net/2022/11/05/o8j3nkmi2tMlKRI.webp
+    - https://s2.loli.net/2022/11/05/4NWd7kISfRwVJ1j.webp
+    - https://s2.loli.net/2022/11/05/wmaSO5Ayljg4eCc.jpg
+    
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -143,7 +161,7 @@ post_meta:
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
-    date_format: date # date/relative 顯示日期還是相對日期
+    date_format: relative # date/relative 顯示日期還是相對日期
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
     label: true # true or false 顯示描述性文字
@@ -613,7 +631,7 @@ blog_title_font:
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
   enable: true
-  icon: # the unicode value of Font Awesome icon, such as '\3423'
+  icon: '\f197' # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
 # the subtitle on homepage (主頁subtitle)
@@ -710,8 +728,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 11/5/2022 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -820,8 +838,8 @@ aplayerInject:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
-  position: bottom-left
+  enable: true
+  position: top-left
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
@@ -838,10 +856,11 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
   blur: false
+  # loadingImg: /img/loading.gif
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -880,8 +899,10 @@ inject:
 
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    <link rel="stylesheet" href="/css/love.css">
   bottom:
     # - <script src="xxxx"></script>
+    <link rel="stylesheet" href="/css/love.css">
     <script async src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script>
 
 # CDN
