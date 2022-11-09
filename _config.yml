@@ -143,3 +143,12 @@ search:
   path: search.xml
   field: post
   content: true
+
+
+# offline config passed to sw-precache. 加速博客访问速度
+service_worker:
+  maximumFileSizeToCacheInBytes: 5242880
+  staticFileGlobs:
+  - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
+  stripPrefix: public
+  verbose: true  

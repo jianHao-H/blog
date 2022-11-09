@@ -90,3 +90,41 @@ img {
   cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
       default;
 }
+
+/*底部按钮调整*/
+@media screen and (min-width:776px) {
+  #rightside button{
+      margin-right: 8px;
+  }
+  #rightside > div > button, #rightside > div > a{
+      margin-bottom: 5px;
+      width: 45px;
+      height: 45px;
+      border-radius: 22.5px;
+      font-size: 22px;
+  }
+  #rightside #rightside-config-hide{
+    transform: translate(55px, 0);
+  }
+}
+
+/* mac代码框 */
+#article-container figure.highlight,
+#article-container pre {
+    color: #aaa8a3;
+    background: #f3f3f3    /*中间代码的背景颜色*/
+}
+
+#article-container figure.highlight .highlight-tools {
+    color: #e9b125;
+    background: #eee
+}
+
+#article-container figure.highlight .gutter pre {
+    color: hsla(30, 1%, 74%, 0.952);
+    background: #f3f3f3
+}
+
+#article-container figure.highlight figcaption a {
+    color: #f3f3f3 !important
+}
