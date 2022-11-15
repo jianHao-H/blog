@@ -19,11 +19,42 @@
     background: var(--dark_bg_color)
 } */
 
-[data-theme=dark] #nav,[data-theme=dark] .layout_page>div:first-child:not(.recent-posts),[data-theme=dark] .layout_post>#post {
-    /* background-color: #527496; */
 
+
+
+/* [data-theme=dark] #recent-posts>.recent-post-item {
+    background: rgba(25, 25, 25, 95%) !important;
 }
-/* background: #090a0b; 这颜色适合深夜模式*/
+
+[data-theme=dark] #aside-content>.card-widget.card-info {
+    background: rgba(29, 30, 34, 0.95) !important;
+}
+
+[data-theme=dark] #aside-content .card-widget {
+    background: rgba(25, 25, 25, 95%) !important;
+} */
+
+[data-theme=dark] #recent-posts>.recent-post-item,
+[data-theme=dark] #aside-content>.card-widget.card-info,
+[data-theme=dark] #aside-content .card-widget,
+[data-theme="dark"] #page-header.nav-fixed > #nav,
+[data-theme="dark"] #page-header.not-top-img > #nav {
+    background: rgba(29, 30, 34, 0.95) !important;
+}
+
+/* [data-theme="dark"] #page-header.nav-fixed > #nav, [data-theme="dark"] #page-header.not-top-img > #nav {
+    background: rgba(29, 30, 34, 0.95) !important;
+} */
+
+[data-theme=dark] .cardHover, 
+[data-theme=dark] .error404 #error-wrap .error-content, 
+[data-theme=dark] .layout > div:first-child:not(.recent-posts), 
+[data-theme=dark] .layout > .recent-posts .pagination > :not(.space) {
+    background: rgba(29, 30, 34, 0.95) !important;
+}
+
+
+
 
 
 
