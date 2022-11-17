@@ -944,6 +944,8 @@ inject:
     - <link rel="stylesheet" href="/css/fonts.css">
     - <link rel="stylesheet" href="/css/iconfont.css" >
     - <link rel="stylesheet" href="/css/nav_menu.css">
+    - <link rel="stylesheet" href="/css/about.css">
+    - <link rel="stylesheet" href="/css/flinks.css">
 
   bottom:
     # - <script src="xxxx"></script>
