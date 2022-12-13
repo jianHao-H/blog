@@ -1,17 +1,67 @@
-- class_name: 1.技术支持
-  class_desc: 本网站的搭建由以下开源作者提供技术支持
-  link_list: 
-    - name: Hexo 
-      link: https://hexo.io/zh-cn/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、简单且强大的网志框架
-      siteshot: https://source.fomal.cc/siteshot/hexo.io.jpg
-      
-- class_name: 2.友情链接
-  class_desc: 一些好朋友~~
+- class_name: 魔改技术支持
+  flink_style: flexcard
   link_list:
-    - name: Fomalhaut🥝
-      link: https://fomal.cc/
-      avatar: /assets/head.jpg
+    - name: 安知鱼`Blog
+      link: https://anzhiy.cn/
+      avatar: https://image.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
+
+    - name: Fomalhaut`Blog
+      link: https://www.fomal.cc/
+      avatar: https://halo.linjiangyu.com/img/fomal/avatar.webp
       descr: Future is now 🍭🍭🍭
-      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+      siteshot: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/supporter/Fomalhaut.webp
+
+    - name: bt-sonny`Blog
+      link: https://chuchendjs.github.io/
+      avatar: https://img-blog.csdnimg.cn/2020050623061368.jpg
+      descr: Nothing is dificult to the man who will try！
+      siteshot: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/supporter/chuchen.webp
+
+    - name: Nick Xu`Blog
+      link: https://www.nickxu.top/
+      avatar: https://www.nickxu.top/static/favicon.jpg
+      descr: 这家伙真勤奋，什么都留下了
+      siteshot: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/supporter/NX.webp
+
+    - name: MoYu-zc`Blog
+      link: https://www.cnblogs.com/MoYu-zc/
+      avatar: https://gitee.com/MoYu-zc/picgo/raw/master/img/20210213094450.jpg
+      descr: 
+      siteshot: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/supporter/mayu.webp
+
+    - name: Harris`Blog
+      link: https://hassanwong.top/
+      avatar: https://cdn.jsdelivr.net/npm/hassan-assets/img/avatar_blog.jpg
+      descr: 一名什锦区博主，这里我将记录学习过程中的笔记、生活中的点点滴滴，分享一些经验与想法。在这里相遇很幸运
+      siteshot: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/supporter/harris.webp
+
+    - name: 百里飞洋`Blog
+      link: https://blog.meta-code.top/
+      avatar: https://blog.meta-code.top/img/friends/Barry-Flynn.jpg
+      descr: 星河滚烫，无问西东
+      siteshot: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/supporter/bailifeiyang.webp
+
+    - name: 唐志远`Blog
+      link: https://tzy1997.com/
+      avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+      descr: 2022年的理想开始实现了吗？
+      siteshot: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/supporter/tangzhiyuan.webp
+
+    - name: Ariasaka`Blog
+      link: https://yisous.xyz/
+      avatar: https://bu.dusays.com/2021/10/13/096df1ddac262.gif
+      descr: 生活明朗，万物可爱
+      siteshot: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/supporter/Ariasaka.webp
+
+    - name: Butterfly主题美化教程
+      link: https://butterfly.zhheo.com/
+      avatar: https://butterfly.zhheo.com/img/logo.png
+      descr: 让每个人轻松的自定义自己的博客
+      siteshot: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/supporter/butterfly.webp
+
+
+    
+
+  

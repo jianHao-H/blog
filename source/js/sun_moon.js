@@ -10,20 +10,25 @@ function switchNightMode() {
             }, 1e3);
           }, 2e3)
       })
+    var r_switch_button = document.querySelector('#darkmode_navswitch a i')
+    var about_bk_color = document.querySelector('#content-inner #about-page')
     const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
     if (nowMode === 'light') {
       activateDarkMode()
       saveToLocal.set('theme', 'dark', 2)
       GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)
       document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')
+      r_switch_button.setAttribute('class', 'iconfont icon-taiyang')
+      about_bk_color.style.background = 'rgba(29, 30, 34, 0.95)'
     } else {
       activateLightMode()
       saveToLocal.set('theme', 'light', 2)
       document.querySelector('body').classList.add('DarkMode'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')
+      r_switch_button.setAttribute('class', 'iconfont icon-xianxingyueliang')
+      about_bk_color.style.background = '#f1f1ef'
     }
     // handle some cases
     typeof utterancesTheme === 'function' && utterancesTheme()
     typeof FB === 'object' && window.loadFBComment()
     window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)
-  }
-  
+}

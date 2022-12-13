@@ -27,6 +27,9 @@
     - name: Java
       color: "#fff"
       icon: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/creatIcon/java.jpg
+    - name: Php
+      color: "#fff"
+      icon: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/creatIcon/php2.jpg
     - name: Kali
       color: "#937df7"
       icon: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/creatIcon/kali.jpeg
@@ -42,6 +45,6 @@
     - name: Git
       color: "#df5b40"
       icon: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/creatIcon/gitIcon.webp
-    - name: CTF
+    - name: CTFer
       color: "#222"
       icon: https://bugcarrot-blog.oss-cn-beijing.aliyuncs.com/creatIcon/CTF.jpeg

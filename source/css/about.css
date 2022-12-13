@@ -1,3 +1,12 @@
-.layout.hide-aside {
+#content-inner {
     max-width:1250px;
+    /* background: #f1f1ef !important;
+    border-radius:10px; */
 }
+
+#content-inner #about-page {
+    background: #f1f1ef;
+    border-radius:10px;
+    padding:10px;
+}
+

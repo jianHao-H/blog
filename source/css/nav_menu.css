@@ -46,7 +46,7 @@
     box-shadow: 0 0 5px var(--lyx-theme);
     font-family: "Font Awesome 6 Free";
     text-align: center;
-    color:white;
+    color:var(--lyx-theme);
     line-height:34px;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
     font-size: 18px;/*根据个人喜好*/
 }
@@ -114,3 +114,18 @@
 #rightside > div > a {
     line-height: 45px;
 }
+
+/* 导航栏模糊 */
+#nav {
+    /* backdrop-filter: saturate(180%) blur(20px); */
+}
+
+#nav #search-button {
+    padding: 8px 0 0 14px;
+}
+
+/* 手机尺寸的菜单栏logo */
+#nav #toggle-menu {
+    padding: 8px 0 0 6px;
+}
+

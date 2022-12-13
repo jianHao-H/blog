@@ -5,7 +5,7 @@
 # Site
 title: bugCarrot
 subtitle: 'blog'
-description: '海的那边，是bug'
+description: '无论过去，不问将来'
 keywords: 
 author: bugCarrot
 language: zh-CN
@@ -103,10 +103,10 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: sftp
-  host: 120.46.190.218
+  host: 192.144.204.78
   user: bloger
   pass: "qqq!@#45"
-  remotePath: /var/www/html
+  remotePath: /usr/local/nginx/html
   port: 22
 
 
@@ -119,7 +119,7 @@ deploy:
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
-  enable: true #开关插件版看板娘
+  enable: false #开关插件版看板娘
   scriptFrom: local # 默认
   pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
   pluginJsPath: lib/ # 脚本文件相对与插件根目录路径

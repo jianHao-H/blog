@@ -98,16 +98,12 @@
     height: 60px;
 }
 
-#nav #search-button {
-    padding: 7px 0 0 14px;
-}
-
 #page-name {
     left:50%;
 }
 
-/* 导航栏模糊 */
-#nav {
-    backdrop-filter: saturate(180%) blur(20px);
+/* 控制生肖图标大小 */
+#archive .article-sort .article-sort-item.year .icon{
+    width: 80px;
+    height: 40px;
 }
-
